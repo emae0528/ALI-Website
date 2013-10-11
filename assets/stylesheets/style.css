@@ -1,0 +1,74 @@
+@font-face{
+	font-family: Lobster;
+	src: url('../fonts/lobster/lobster.otf');
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:;
+}
+
+body{
+	background: rgb(50,50,50);
+}
+
+
+.fb-icon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	position: relative;
+	bottom: 5px;
+	right: 5px;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+}
+
+.marginized-top{
+	margin-top: 80px;
+}
+
+.page-header{
+	margin: 170px 0 20px;
+	border-bottom: 0px;
+}
+
+.main-container{
+	
+}
+
+
+.main-nav{
+	background:rgb(251,165,26);
+	font-family: Rockwell;
+	font-size: 18px;
+	color: rgb(50,50,50);
+}
+
+.main-nav ul{
+	color: rgb(50,50,50);
+}
+
+#navbar-main a:hover{
+	background: transparent;
+	color:rgb(50,50,50);
+}
+
+#awesome_logo{
+	margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
+	.header-picture{
+		display:none;
+	}
+
+	.profile{
+		top: 0px !important;
+	}
+}
