@@ -103,8 +103,14 @@ margin: 0px auto;
 
 /*CREW STAGE*/
 
-#back_crew{
+.back_crew{
 	z-index: -1;
+  position: relative;
+}
+
+.back_crew .clouds{
+  position: absolute;
+  bottom: -62px;
 }
 
 
