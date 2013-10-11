@@ -38,7 +38,7 @@ body{
 }
 
 .container{
-	border: 3px solid green;
+	/*border: 3px solid green;*Please don't use borders for testing sections of elements it adds pixels and it can cause design problems */
 }
 
 
