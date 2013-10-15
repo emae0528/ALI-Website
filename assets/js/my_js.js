@@ -7,8 +7,8 @@ $(function(){
 	$('#navbar-main .crew-link').bind('click',function(){
    		$("html, body").animate({ scrollTop: $('.crew-stage').offset().top }, 500);
 	});
-	$('#navbar-main .about-link').bind('click',function(){
-   		$("html, body").animate({ scrollTop: $('.about-me').offset().top }, 500);
+	$('#navbar-main .imotion-link').bind('click',function(){
+   		$("html, body").animate({ scrollTop: $('.imotion').offset().top }, 500);
 	});
 	$('#navbar-main .favorites-link').bind('click',function(){
    		$("html, body").animate({ scrollTop: $('.favorites-container').offset().top }, 500);

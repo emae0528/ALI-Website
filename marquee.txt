@@ -1,1 +1,1 @@
-<marquee direction="right"></marquee>
+<marquee direction="right" scrollamount="2" > </marquee>
