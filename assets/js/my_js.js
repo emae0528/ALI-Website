@@ -10,8 +10,14 @@ $(function(){
 	$('#navbar-main .imotion-link').bind('click',function(){
    		$("html, body").animate({ scrollTop: $('.imotion').offset().top }, 500);
 	});
-	$('#navbar-main .favorites-link').bind('click',function(){
-   		$("html, body").animate({ scrollTop: $('.favorites-container').offset().top }, 500);
+	$('#navbar-main .airx-link').bind('click',function(){
+   		$("html, body").animate({ scrollTop: $('.airx').offset().top }, 500);
+	});
+	$('#navbar-main .frststage-link').bind('click',function(){
+   		$("html, body").animate({ scrollTop: $('.frststage').offset().top }, 500);
+	});
+	$('#navbar-main .TnM-link').bind('click',function(){
+   		$("html, body").animate({ scrollTop: $('.TnM').offset().top }, 500);
 	});
 
 	$('.back-to-top').click(function(){

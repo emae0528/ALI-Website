@@ -83,14 +83,14 @@ position: relative;
 
 #navbar-pic li{
   float:left;
-  margin-right:5px;
+  margin-right:1px;
   position:relative;
   top:4px;
   display: inline;
 }
 #navbar-pic a{
   display:block;
-  padding:5px;
+  padding:;
 }
 
 /*CREW STAGE*/
@@ -109,17 +109,151 @@ position: relative;
 	margin-top: 13%;
 }
 
-
-
 .clouds1{
 	margin-top: 8%;
 }
 
 .clouds2{
-	margin-top: -10%;
+	margin-top: -20%;
 }
 
+.line1{
+	margin-left: 75%;
+	margin-top: -15%;
+}
 
+#up{
+	margin-top: -73%;
+}
+
+/*IMOTION*/
+
+#imotion_logo{
+	margin-top: -35%;
+	margin-left: 22%;
+
+}
+
+#link3{
+	margin-top: -25%;
+	margin-left: 50%;
+}
+
+.imotion{
+
+}
+
+#content_imotion{
+	z-index: -1;
+	margin-top: 13%;
+	background-color: rgb(251,165,26);
+}
+
+.description_imotion{
+	background-color: rgb(251,165,26);
+	width: 55%;
+	margin-top: 10%;
+	margin-left: 12%;
+}
+
+.description_imotion small{
+	background-color: rgb(251,165,26);
+	font-weight: bold;
+	font-size: 100%;
+	color: rgb(185,39,137);
+	font-family: Rockwell;
+}
+
+#pic_left img{
+	width: 30%;
+}
+
+#up2{
+	margin-top: -220%;
+}
+
+#imotion_specs{
+	margin-top: -40%;
+	margin-left: 35%;
+}
+
+#rocket_des{
+	margin-left: 79%;
+	margin-top: -20%;
+}
+
+#line2{
+	margin-left: 75.2%;
+	margin-top: -3%;
+}
+
+/*AIRX*/
+
+#phone{
+	margin-top: -35%;
+	margin-left: 5%;
+}
+
+#airx_des{
+	background-color: rgb(251,165,26);
+	width: 10%;
+	margin-top: -58%;
+	margin-left: 40%;
+}
+
+#airx_des small{
+	background-color: rgb(251,165,26);
+	font-weight: bold;
+	font-size: 100%;
+	color: rgb(185,39,137);
+	font-family: Rockwell;
+}
+
+#cloud_right{
+	margin-top: -22%;
+	margin-left: 42%;
+}
+
+#line3{
+	margin-left: 75.2%;
+	margin-top: -5%;
+}
+
+#airx_rocket_des{
+	margin-top: -80%;
+	margin-left: 50%;
+}
+
+/*FIRST STAGE*/
+
+#fstage{
+	margin-top: -55%;
+	margin-left: 25%;
+}
+
+#text_awe{
+	margin-top: -17%;
+	margin-left: 62%;
+}
+
+/*Thrust and Manifest*/
+
+.TnM{
+	background-color: rgb(251,165,26);
+}
+
+#TnM_1st{
+	margin-left: 45%;
+	margin-top:25%;
+}
+
+#TnM_cloud1{
+	margin-top: -75%;
+}
+
+#TnM_cloud2{
+	margin-top: -70%;
+}
 
 @media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
 	.header-picture{
@@ -129,4 +263,24 @@ position: relative;
 	.navpic{
 		display:none;
 	}
+
+
+
+}
+
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
+	.description_imotion{
+		font-size: 10%;
+		height: 10%;
+	}
+
+	#rocket_des{
+		width: 30%;
+	}
+
+	#airx_des{
+		font-size: 10%;
+		height: 10%;
+	}
+
 }
